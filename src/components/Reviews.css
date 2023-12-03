@@ -1,0 +1,20 @@
+@keyframes moveRight {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100vw);
+  }
+}
+
+.moveRight1 {
+  animation: moveRight 50s linear infinite;
+}
+
+.moveRight2 {
+  animation: moveRight 25s linear infinite;
+}
+
+.moveRight3 {
+  animation: moveRight 15s linear infinite;
+}
